@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1969475004129827324
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Grey3
+  m_Shader: {fileID: 4800000, guid: f7af807163ab7440a98fa4170ad69173, type: 3}
+  m_Parent: {fileID: 2100000, guid: 82235dd63a8a847fbb3e0c4920bb5842, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _CASTSHADOWS_ON
+  m_InvalidKeywords:
+  - _ENABLECONCAVEEDGES_ON
+  - _ENABLECONCAVEOUTLINE_ON
+  - _ENABLECONVEXEDGES_ON
+  - _ENABLECONVEXOUTLINE_ON
+  - _ENABLEOUTEREDGE_ON
+  - _ENABLEOUTLINE_ON
+  - _ENABLESPECULARHIGHLIGHT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StepCurve:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 7.34, y: 3.22}
+        m_Offset: {x: 0.78, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ApplySelfShadow: 0
+    - _BendSmoothness: 1
+    - _DitheringScale: 0.84
+    - _EnableMidStep: 0
+    - _EnableSpecular: 0
+    - _EnableTexture: 0
+    - _ExternalShadowStrength: 0.5
+    - _HighlightHueStep: -35
+    - _HighlightSaturationStep: -10
+    - _HighlightThreshold: 0.775
+    - _HighlightValueStep: 10
+    - _LightHueStep: -7
+    - _LightSaturationStep: -5
+    - _LightShadowRatio: 0.83
+    - _LightStepsCount: 1
+    - _NormalBias: 0.0511
+    - _OutlineWidth: 1
+    - _RoundingDistance: 0.5
+    - _RoundingRadius: 0.5
+    - _ShadowBlend: 0
+    - _ShadowHueStep: 10
+    - _ShadowSaturationStep: 10
+    - _ShadowSmoothness: 0.595
+    - _ShadowStepReduction: 2.78
+    - _ShadowStepsCount: 1
+    - _ShadowStrength: 0.573
+    - _ShadowThreshold: 0.073
+    - _ShadowValueStep: -3
+    - _SpecularIntensity: 0
+    - _SpecularValueShift: 0
+    - _StepsCount: 3
+    - _UseExactColors: 0
+    m_Colors:
+    - _BaseColor: {r: 0.368597, g: 0.44758204, b: 0.504, a: 1}
+    - _Color: {r: 0.28627452, g: 0.3882353, b: 0.43137255, a: 1}
+    - _HighlightColor: {r: 0.8117647, g: 0.7764706, b: 0.62352943, a: 0.21176471}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 0.4392157}
+    - _ShadowMidThreshold: {r: 0.55, g: 0.6, b: 0.04, a: 0}
+  m_BuildTextureStacks: []
